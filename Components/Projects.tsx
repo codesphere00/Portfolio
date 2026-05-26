@@ -7,14 +7,14 @@ import Image from "next/image";
 const MotionImage = motion(Image);
 
 // PLACEHOLDER VARIABLES - Edit these variables in VS Code to set your project links
-const shoprLiveLink = "";
-const shoprGithubLink = "";
+const shoprLiveLink = "https://reliable-pony-78c42c.netlify.app/";
+const shoprGithubLink = "https://github.com/codesphere00/Ecommerce";
 
-const coldcraftLiveLink = "";
-const coldcraftGithubLink = "";
+const coldcraftLiveLink = "https://emailgenerator-ai.netlify.app/";
+const coldcraftGithubLink = "https://github.com/codesphere00/EmailGenerator";
 
-const smartScheduleLiveLink = "";
-const smartScheduleGithubLink = "";
+const smartScheduleLiveLink = "https://schedulegenerator-ai.netlify.app/";
+const smartScheduleGithubLink = "https://github.com/codesphere00/ScheduleGenerator";
 
 interface Project {
   title: string;
