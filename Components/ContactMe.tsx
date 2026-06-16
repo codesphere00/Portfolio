@@ -66,6 +66,7 @@ function ContactMe() {
     );
     window.location.href = `mailto:nileshkmt2005@gmail.com?subject=${subject}&body=${body}`;
     alert("Message Prepared! Opening your default email client to send to nileshkmt2005@gmail.com...");
+    reset(); // Clear the form fields on submit
   };
 
   return (

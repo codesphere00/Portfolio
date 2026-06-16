@@ -63,18 +63,7 @@ function Footer() {
                 rel="noopener noreferrer" 
                 aria-label="LinkedIn Profile" 
               />
-              <SocialIcon 
-                url="mailto:nileshkmt2005@gmail.com" 
-                fgColor="gray" 
-                bgColor="transparent" 
-                network="email"
-                className="h-8 w-8 hover:scale-110 transition-transform duration-200" 
-                aria-label="Send Nilesh Kumawat an Email"
-                onClick={(e) => {
-                  e.preventDefault();
-                  window.location.href = "mailto:nileshkmt2005@gmail.com";
-                }}
-              />
+
             </div>
           </div>
 

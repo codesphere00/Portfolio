@@ -36,17 +36,17 @@ const projectsData: Project[] = [
   },
   {
     title: "AuditShield - AI Receipt Audit Platform",
-    description: "Developed AuditShield, an automated AI-powered receipt auditing and financial tracking platform. It utilizes OCR scanning and the Gemini API to extract line items, tax breakdowns, and merchant data from uploaded receipts, automating expense validation and compliance checks.",
+    description: "AuditShield is a financial intelligence platform implementing Retrieval-Augmented Generation (RAG) and Semantic Search using Vector Embeddings. It executes AI-Powered OCR receipt processing, references data against a Tax Rule Knowledge Base for expense auditing, and uses Similarity Search to deliver document intelligence and compliance analysis.",
     image: "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?q=80&w=600&auto=format&fit=crop",
-    technologies: ["Next.js 15", "React", "TypeScript", "PostgreSQL", "Prisma ORM", "Gemini API", "Tailwind CSS", "Zustand", "shadcn/ui", "REST APIs", "UploadThing"],
+    technologies: ["Next.js 15", "React 19", "TypeScript", "Tailwind CSS", "PostgreSQL", "Prisma ORM", "pgvector", "Gemini 2.5 Flash", "gemini-embedding-2", "RAG", "Vector Search", "AI OCR", "REST APIs", "Server Actions", "Netlify"],
     github: auditShieldGithubLink,
     link: auditShieldLiveLink
   },
   {
     title: "Smart Schedule Generator",
-    description: "Built a smart student schedule generator that helps users organize weekly class schedules, subjects, attendance, and timetable management with responsive dashboard functionality and modern UI.",
+    description: "A full-stack SaaS platform utilizing AI Timetable Parsing and OCR Document Processing to automate schedule generation. By extracting structured dates from documents, it provides Constraint-Based Planning, Personalized Calendar Optimization, and academic workflow automation.",
     image: "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?q=80&w=600&auto=format&fit=crop",
-    technologies: ["Next.js 15", "React", "TypeScript", "PostgreSQL", "Prisma ORM", "Tailwind CSS", "shadcn/ui", "UploadThing", "Zustand", "REST APIs"],
+    technologies: ["Next.js 15", "React 19", "TypeScript", "Tailwind CSS", "PostgreSQL", "Prisma ORM", "Gemini API", "AI Vision / OCR", "UploadThing", "Clerk Auth", "Server Actions", "REST APIs", "Vercel"],
     github: smartScheduleGithubLink,
     link: smartScheduleLiveLink
   }

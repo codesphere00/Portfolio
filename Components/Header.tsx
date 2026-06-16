@@ -38,17 +38,7 @@ function Header() {
       rel="noopener noreferrer"
       aria-label="Nilesh Kumawat's LinkedIn Profile"
        />
-      <SocialIcon 
-        url="mailto:nileshkmt2005@gmail.com"
-        fgColor='gray'
-        bgColor='transparent'
-        network='email'
-        aria-label="Send Nilesh Kumawat an Email"
-        onClick={(e) => {
-          e.preventDefault();
-          window.location.href = "mailto:nileshkmt2005@gmail.com";
-        }}
-      />
+
     </motion.div>
     <Link href='#contact' aria-label="Contact Nilesh Kumawat">
     <motion.div 
