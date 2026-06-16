@@ -10,8 +10,8 @@ const MotionImage = motion(Image);
 const shoprLiveLink = "https://reliable-pony-78c42c.netlify.app/";
 const shoprGithubLink = "https://github.com/codesphere00/Ecommerce";
 
-const coldcraftLiveLink = "https://emailgenerator-ai.netlify.app/";
-const coldcraftGithubLink = "https://github.com/codesphere00/EmailGenerator";
+const auditShieldLiveLink = "https://receiptaudit.netlify.app/audit";
+const auditShieldGithubLink = "https://github.com/codesphere00/auditshield";
 
 const smartScheduleLiveLink = "https://schedulegenerator-ai.netlify.app/";
 const smartScheduleGithubLink = "https://github.com/codesphere00/ScheduleGenerator";
@@ -35,12 +35,12 @@ const projectsData: Project[] = [
     link: shoprLiveLink
   },
   {
-    title: "ColdCraft AI - Email Generator",
-    description: "Developed an AI-powered cold email generator that helps users create professional outreach emails with authentication, responsive UI, and clean user experience. Built with modern full-stack architecture and API integration.",
-    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=600&auto=format&fit=crop",
-    technologies: ["Next.js 15", "React", "TypeScript", "PostgreSQL", "Prisma ORM", "JWT Authentication", "Gemini API", "Nodemailer", "Tailwind CSS", "Zustand", "shadcn/ui", "REST APIs"],
-    github: coldcraftGithubLink,
-    link: coldcraftLiveLink
+    title: "AuditShield - AI Receipt Audit Platform",
+    description: "Developed AuditShield, an automated AI-powered receipt auditing and financial tracking platform. It utilizes OCR scanning and the Gemini API to extract line items, tax breakdowns, and merchant data from uploaded receipts, automating expense validation and compliance checks.",
+    image: "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?q=80&w=600&auto=format&fit=crop",
+    technologies: ["Next.js 15", "React", "TypeScript", "PostgreSQL", "Prisma ORM", "Gemini API", "Tailwind CSS", "Zustand", "shadcn/ui", "REST APIs", "UploadThing"],
+    github: auditShieldGithubLink,
+    link: auditShieldLiveLink
   },
   {
     title: "Smart Schedule Generator",
